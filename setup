@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+import shutil
+import sys
+
+
+
+shutil.copy(sys.path[0]+"/hooks/update", "HOOKS")
